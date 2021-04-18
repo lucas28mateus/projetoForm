@@ -1,0 +1,152 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 93.75%; /* 15px */
+}
+
+body {
+   background: #dee2e6;  
+   width: 100%;
+   height: 100vh;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+   
+
+.container {
+  
+  width: 1120px;
+  height: 512px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+}  
+
+.container-panel {
+  background: #d31f1cda;
+
+  width: 45%;
+  height: 600px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: inset  0 0 0 black, 0 0 0.9em black;
+  border-radius: 25px 0 0 25px;
+}
+
+.img1{
+  margin-bottom: 30px;
+}
+
+.container-panel p {
+  font-size: 19px;
+  margin: 10px 0;
+  color: rgb(240, 196, 196);
+}
+
+.img1 img {
+   width: 3.5rem;
+  height: 3.5rem;
+}
+
+.img-rocket img {
+  width: 350px;
+  height: 330px;
+
+  margin-top: 50px;
+}
+
+
+
+.form{
+  background: #0a011f;
+
+  width: 45%;
+  height: 600px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0 25px 25px 0;
+  box-shadow: inset  0 0 0 black, 0 0 0.9em black;
+}
+
+.input-group {
+  margin: 26px 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.sr-only{
+  color: rgb(255, 255, 255);
+  margin-bottom: 8px;
+  font-size: 17px;
+  font-weight: normal;
+}
+
+.input-group .help{
+  opacity: 0.6;
+  color: rgb(240, 196, 196);
+  margin-top: 8px;
+}
+
+.input-group input {
+  border-radius: 20px;
+  background: #ced6e0;
+  width: 250px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.form button {
+  width: 100px;
+  height: 30px;
+  border-radius: 60px;
+  background: #eb5250da;
+  color: rgb(240, 196, 196);
+  cursor: pointer;
+}
+
+.log-in {
+  width: 150px;
+  height: 50px;
+  margin-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.log-in footer {
+  font-size: 20px;
+  margin-bottom: 15px;
+  color: #fff;
+}
+
+.social-network{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-network  img {
+ margin: 0 10px;
+}
+  
+@media (min-width: 800px) {
+  html {
+      font-size: 87.5%;
+  }
+}
